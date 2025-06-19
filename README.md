@@ -1,7 +1,7 @@
 <h1 align="center">📘 JavaScript Journey From Zero 🚀</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/1GEATImIxEXVR79Dhk/giphy.gif" width="360" alt="Stylish Programmer" />
+  <img src="https://img.freepik.com/premium-photo/woman-is-typing-laptop-with-text-that-says-open-screen_1373844-10398.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid&w=740" width="360" alt="Stylish Programmer" />
 </p>
 
 ---
