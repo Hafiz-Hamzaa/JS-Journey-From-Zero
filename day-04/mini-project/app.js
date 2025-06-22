@@ -58,3 +58,29 @@ for(let i = 0; i < grocery.length; i++){
 
 // ---- Total number of grocery items
 console.log(grocery.length)
+
+// --- Mini Project : To Do list
+let todos = []
+while(true){
+  let choice = prompt("Select choices : add , delete , view , exit")
+  if(choice === "add"){
+    let input = prompt("Enter your multiple task :")
+    let tasks = input.split(",")
+    for(let task of tasks){
+      todos.push(task)
+    }
+  } else if(choice === "view"){
+    for(let i = 0; i < todos.length; i++){
+      console.log(`${i} : ${todos[i]}`)
+    }
+  } else if(choice === "delete"){
+    let remove = +prompt("Enter the index you want to delete")
+    todos.splice(remove,1)
+  } else if(choice === "exit"){
+    console.log("Thanks for your contribution")
+    break;
+  } else{
+    console.log("Invalid option")
+  }
+}
+console.log(todos);
