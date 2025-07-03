@@ -1,0 +1,23 @@
+.myClass{
+    height: 70px;
+    width: 70px;
+    background-color: chartreuse;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+button{
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+}
+.oldClass{
+    color: blue;
+}
+.newClass{
+    background-color: aqua;
+}
